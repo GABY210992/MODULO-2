@@ -1,0 +1,27 @@
+1. Análisis y descripción del dataset
+El dataset "Online Retail" contiene información de una tienda en línea basada en el Reino Unido. Incluye datos de transacciones realizadas entre el 1 de diciembre de 2010 y el 9 de diciembre de 2011. Los campos principales son:
+- InvoiceNo: Número único de factura (categoría nominal).
+- StockCode: Código único del producto (categoría nominal).
+- Description: Nombre del producto (categoría nominal).
+- Quantity: Cantidad de productos por transacción (numérico).
+- InvoiceDate: Fecha y hora de la transacción (numérico).
+- UnitPrice: Precio por unidad en libras esterlinas (numérico).
+- CustomerID: Identificador único del cliente (categoría nominal).
+- Country: País de residencia del cliente (categoría nominal).
+
+2.Limpieza de datos.
+
+Se aplicacion técnicas de Limpieza de datos como:
+-Eliminación de duplicados.
+-Eliminación de ceros.
+-Se añadió la columna PrecioTotal
+
+3. Generación de meta-datos
+Con base en el análisis, puedes generar meta-datos como:
+- Cantidad de registros: Número total de filas en el dataset.
+- Distribución de países: Número de transacciones por país.
+- Productos más vendidos: Identificar los productos con mayor cantidad de ventas.
+- Clientes frecuentes: Clientes con mayor número de transacciones.
+- Rango de fechas: Período cubierto por las transacciones.
+
+
